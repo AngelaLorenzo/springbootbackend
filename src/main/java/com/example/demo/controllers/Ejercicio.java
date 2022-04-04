@@ -24,7 +24,7 @@ public class Ejercicio {
     public String Palindrome(@PathVariable String name){
         boolean palindrome = Utils.isPalindrome(name);
         return palindrome ? "Si es palindormo" : "No es palindromo";
-       // if(name.equals(reversedName)) return "Si es palindromo";
+       // if  (name.equals(reversedName)) return "Si es palindromo";
        // else return "No es palindromo";
     }
 }
