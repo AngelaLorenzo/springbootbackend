@@ -11,7 +11,7 @@ public class Ejercicio {
     // http://localhost:8080/
     @GetMapping("/")
     public String greet(){
-        return "Bienvenido al servidor backend";
+        return "Bienvenido al servidor backend de Angela";
     }
     // http://localhost:8080/aleatorio
     @GetMapping("/aleatorio")
